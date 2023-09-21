@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.contenedor {
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 25px;
+}
+
+.imagen-faro {
+    width: 350px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    width: 40px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
